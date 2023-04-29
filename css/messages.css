@@ -17,13 +17,11 @@
 }
 
 .user_name{
-    position: fixed;
     font-size: 15px;
 }
 
 .message_text{
-    padding: 25px;
-    position: fixed;
+    position: absolute;
     font-size: 14px;
     color: #706B6B;
 ;
