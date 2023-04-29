@@ -1,0 +1,36 @@
+.form_friends_notifications{
+    position: absolute;
+    height: 66px;
+    width: 874px;
+    margin-left: 400px;
+    margin-bottom: 859px;
+    border-radius: 10px;
+    background-color: #F9F9F9;
+}
+
+.form_friends{
+    position: absolute;
+    height: 700px;
+    width: 874px;
+    margin-left: 400px;
+    margin-bottom: 859px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.form-field-container-friends{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field-notification-friends{
+    background-color: #F9F9F9;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #F9F9F9;
+}
+
+.form-field-friends{
+    height: 66px;
+    border-color: #FFFFFF;
+}
