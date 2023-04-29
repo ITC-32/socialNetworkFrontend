@@ -1,0 +1,55 @@
+.form-header {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #BBB9B9;
+}
+
+.form-header h1 {
+    float: left;
+}
+
+input.form-field {
+    padding: 10px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-section input {
+    width: 45%;
+}
+
+.birth-date-container,
+.second-extra-field {
+    width: 50%;
+}
+
+.birth-date-container p,
+.birth-date-container input,
+.gender-container label,
+.gender-container input {
+    float: left;
+    width: 90%;
+    color: #8b8b8b;
+}
+
+.gender-container {
+    display: flex;
+}
+
+.extra-fields-container {
+    display: flex;
+    align-items: center;
+}
+
+.gender-container {
+    border: 1px solid #BBB9B9;
+    border-radius: 10px;
+}
+
+.second-extra-field p {
+    color: #8b8b8b;
+}
