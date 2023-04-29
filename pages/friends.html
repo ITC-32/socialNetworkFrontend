@@ -8,6 +8,7 @@
     <link rel="icon" href="../img/logo/logo-48.svg">
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/friends.css">
+    <link rel="stylesheet" href="../css/messages.css">
     <title>Вход</title>
 </head>
 <body>
@@ -19,19 +20,33 @@
 </header>
 <main>
     <form action="#!" class="form_friends">
-        <div class="form-field-container-friends">
-            <div class="form-field-notification-friends">
-                <div class="txt">
-                    <ul style="list-style: none; display: flex; width: 50%; justify-content: space-between; margin: 0; padding-top: 10px; padding-left: 10px">
-                        <li>Все друзья</li>
-                        <li>Входящие</li>
-                        <li>Исходящие</li>
-                        <li>Друзья онлайн</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="form-field-friends">
+        <div class="friends_block">
+            <div class="icons">
 
+            </div>
+            <div class="form-field-container-friends">
+                <div class="form-field-notification-friends">
+                    <div class="txt">
+                        <ul style="list-style: none; display: flex; width: 50%; justify-content: space-between; margin: 0; padding-top: 10px; padding-left: 10px">
+                            <li>Все друзья</li>
+                            <li>Входящие</li>
+                            <li>Исходящие</li>
+                            <li>Друзья онлайн</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-field-friends">
+                    <li class="message">
+                        <div class="user">
+                            <img src="./../img/user/user.png">
+                            <div class="message_data">
+                                <p class="user_name">Иванова Анна</p>
+                                <p class="message_text">Хочет добавить вас</p>
+                            </div>
+                            <p class="message_date">онлайн</p>
+                        </div>
+                    </li>
+                </div>
             </div>
         </div>
     </form>
