@@ -10,11 +10,6 @@ body {
     background-color: #E9EBF1;
 }
 
-li{
-    display: inline;
-}
-
-
 .header {
     box-sizing: border-box;
     background-color: white;
@@ -114,6 +109,7 @@ main {
 
 .user img {
     width: 8%;
+    border-radius: 50%;
 }
 
 .user_name {
