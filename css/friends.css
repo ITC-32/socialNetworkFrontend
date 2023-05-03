@@ -1,38 +1,55 @@
-.form_friends_notifications{
-    position: absolute;
-    height: 66px;
-    width: 874px;
-    margin-left: 400px;
-    margin-bottom: 859px;
-    border-radius: 10px;
-    background-color: #F9F9F9;
+.friends_block {
+    width: 50%;
 }
 
-.form_friends{
-    position: absolute;
-    height: 700px;
-    width: 874px;
-    margin-left: 400px;
-    margin-bottom: 859px;
+.friends-container {
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background-color: white;
 }
 
-.form-field-container-friends{
+.friends-header {
+    list-style: none;
     display: flex;
-    flex-direction: column;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px
 }
 
-.form-field-notification-friends{
-    background-color: #F9F9F9;
-    height: 50px;
-    border-radius: 10px;
-    border-color: #F9F9F9;
+.friends-header li {
+    margin-left: 20px;
 }
 
-.form-field-friends{
-    height: 66px;
-    border-color: #FFFFFF;
+.friends-header li:hover {
+    color: #5477ff;
 }
 
+.messages_list {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
 
+.message_date{
+    font-size: 12px;
+    color: #42B72A;
+}
+
+.black {
+    color: black
+}
+
+.user {
+    border-radius: 0;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+.active {
+    color: #5477ff;
+}
+
+.red {
+    color: orangered;
+}
