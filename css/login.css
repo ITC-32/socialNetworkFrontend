@@ -52,7 +52,7 @@ body {
 }
 
 main {
-    padding: 200px;
+    padding: 18px 200px;
 }
 
 .container {
@@ -124,3 +124,4 @@ main {
 button.form-field {
     font-size: 20px;
 }
+
