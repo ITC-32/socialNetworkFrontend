@@ -1,0 +1,149 @@
+.chat-container {
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    background-color: #F9F9F9;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.back-icon img {
+    width: 30px;
+}
+
+.user-avatar img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.user-info {
+    display: flex;
+    width: 80%;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.user-info-txt {
+    margin-left: 10px;
+}
+
+.user-info-txt p {
+    margin-bottom: 5px;
+}
+
+.user-info-txt p:first-child {
+    font-size: 20px;
+}
+
+.status {
+    color: #42B72A;
+}
+
+.call {
+    width: 12%;
+}
+
+.call img {
+    float: right;
+}
+
+.chat-history {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: scroll;
+    height: 600px;
+}
+
+.chat-message-card {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    max-width: 60%;
+    word-break: break-word;
+    color: white;
+}
+
+.chat-message-card span {
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.incoming-message span {
+    float: right;
+    margin-left: 10px;
+}
+
+.own-message span {
+    float: left;
+    margin-right: 10px;
+}
+
+.msg-card-container {
+    display: inline-block;
+}
+
+.own-message {
+    float: right;
+    background-color: #42B72A;
+}
+
+.incoming-message {
+    float: left;
+    background-color: #5477ff;
+}
+
+.chat-actions {
+    display: flex;
+    padding: 10px;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.send-file {
+    padding: 10px;
+    width: 5%;
+    text-align: center;
+}
+
+.send-file i {
+    font-size: 30px;
+}
+
+.send-form {
+    width: 85%;
+}
+
+.send-form input {
+    width: 95%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #BBB9B9;
+}
+
+.send-form input:hover {
+    border: 1px solid #5477ff;
+}
+
+.send-btn {
+    width: 10%;
+    text-align: center;
+}
+
+.send-btn i {
+    font-size: 30px;
+}
+
+.chat-actions i {
+    color: #1F3C60;
+}
