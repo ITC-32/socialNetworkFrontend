@@ -28,6 +28,10 @@
     border-radius: 10px;
 }
 
+.subscribes div button:hover {
+    padding: 11px;
+}
+
 .subscribed button {
     border: 1px solid #808080D9;
     background-color: #808080D9;
@@ -36,6 +40,11 @@
 .not-subscribed button {
     background-color: #D50404D9;
     border: 1px solid #D50404D9;
+}
+
+.share i {
+    font-size: 15px;
+    color: white;
 }
 
 .share button {
@@ -138,15 +147,6 @@
 
 .options-container div p {
     margin-left: 5px;
-}
-
-.share i {
-    font-size: 25px;
-    color: #8b8b8b;
-}
-
-.share i:hover {
-    color: #ca9595;
 }
 
 .user-comment-form-container {
