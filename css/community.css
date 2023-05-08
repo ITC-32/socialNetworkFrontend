@@ -1,0 +1,185 @@
+.community-container {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.community-header-card {
+    display: flex;
+    align-items: center;
+}
+
+.community-header-card h1 {
+    margin-left: 20px;
+}
+
+.subscribes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.subscribes div button {
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.subscribed button {
+    border: 1px solid #808080D9;
+    background-color: #808080D9;
+}
+
+.not-subscribed button {
+    background-color: #D50404D9;
+    border: 1px solid #D50404D9;
+}
+
+.share button {
+    border: 1px solid #5477ff;
+    background-color: #5477ff;
+}
+
+.community-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.community-main h3 {
+    margin-bottom: 20px;
+}
+
+.note-card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+
+.user-logo img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.note-header {
+    display: flex;
+    align-items: center;
+}
+
+.note-title {
+    margin-left: 10px;
+    word-break: break-word;
+}
+
+.post-date {
+    color: #8b8b8b;
+    font-size: 15px;
+}
+
+.note-body {
+    padding-top: 10px;
+}
+
+.note-photos img {
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+.note-body div {
+    margin-bottom: 10px;
+}
+
+.options-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px !important;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+}
+
+.like.liked {
+    color: orangered;
+}
+
+.like i {
+    font-size: 25px;
+    padding: 3px;
+    border-radius: 50%;
+    color: #8b8b8b;
+}
+
+.like i:hover {
+    color: orangered;
+}
+
+.like.liked i {
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    color: white;
+    background-color: orangered;
+}
+
+.options-container div {
+    margin-left: 20px;
+}
+
+.options-container div:first-child {
+    margin-left: 0;
+}
+
+.options-container div p {
+    margin-left: 5px;
+}
+
+.share i {
+    font-size: 25px;
+    color: #8b8b8b;
+}
+
+.share i:hover {
+    color: #ca9595;
+}
+
+.user-comment-form-container {
+    display: flex;
+    align-items: center;
+}
+
+.comment-form {
+    margin-left: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-form textarea {
+    width: 90%;
+    outline: none;
+    padding: 5px 10px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #8b8b8b;
+}
+
+.comment-form div {
+    margin-left: 10px;
+}
+
+.send i {
+    font-size: 30px;
+    color: #1F3C60;
+}
+
+.send i:hover {
+    color: #ca9595;
+}
