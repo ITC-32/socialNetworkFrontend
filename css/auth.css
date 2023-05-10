@@ -1,26 +1,65 @@
-* {
-    font-family: 'Arial', sans-serif;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
+.form-header {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #BBB9B9;
 }
 
-body {
-    background-color: #E9EBF1;
+.form-header h1 {
+    float: left;
 }
 
-
-.header {
-    height: 85px;
-    box-sizing: border-box;
-    background-color: white;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+.form-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 11px 200px;
 }
+
+.form-section input {
+    width: 45%;
+}
+
+.birth-date-container,
+.second-extra-field {
+    width: 50%;
+}
+
+.birth-date-container p,
+.birth-date-container input,
+.gender-container label,
+.gender-container input {
+    float: left;
+    width: 90%;
+    color: #8b8b8b;
+}
+
+.gender-container {
+    display: flex;
+}
+
+.extra-fields-container {
+    display: flex;
+    align-items: center;
+}
+
+.gender-container {
+    border: 1px solid #BBB9B9;
+    border-radius: 10px;
+}
+
+.second-extra-field p {
+    color: #8b8b8b;
+}
+
+.header {
+     height: 85px;
+     box-sizing: border-box;
+     background-color: white;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 11px 200px;
+ }
 
 .logo-container {
     display: flex;
@@ -90,7 +129,7 @@ main {
 }
 
 .form-field {
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 10px;
     outline: none;
     border-radius: 10px;
@@ -123,5 +162,9 @@ main {
 
 button.form-field {
     font-size: 20px;
+    padding: 20px;
 }
 
+.login-field {
+    padding: 20px !important;
+}

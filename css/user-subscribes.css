@@ -8,32 +8,6 @@
     border-radius: 10px;
 }
 
-.community-header {
-    width: 100%;
-    display: flex;
-    word-break: break-word;
-}
-
-.community-header button {
-    padding: 10px 20px;
-    background-color: #5477ff;
-    color: white;
-    width: 20%;
-    border: 1px solid #5477ff;
-}
-
-.community-header button:hover {
-    color: #5477ff;
-    background-color: white;
-    transition: .5s ease;
-}
-
-.community-header input[type=search] {
-    width: 80%;
-    padding: 10px;
-    outline: none;
-}
-
 .community-list {
     padding: 10px;
 }
