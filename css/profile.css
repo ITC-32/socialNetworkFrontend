@@ -1,0 +1,88 @@
+.profile-content {
+    width: 50%;
+}
+
+.profile-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.profile-info-container .avatar,
+.profile-info-container .profile-info {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+}
+
+.profile-info-container div img {
+    width: 100%;
+}
+
+.profile-info-container .avatar {
+    width: 30%;
+}
+
+.profile-info-container .profile-info {
+    width: 62%;
+}
+
+.profile-info {
+    width: 100%;
+}
+
+.profile-info .info-header,
+.profile-info .info-middle {
+    width: 95%;
+    border-bottom: 1px solid #8b8b8b;
+    padding: 10px;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-header h3 {
+    font-weight: normal;
+}
+
+.online {
+    color: #42B72A;
+}
+
+.offline {
+    color: orangered;
+}
+
+.info-middle p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.info-footer {
+    padding: 10px 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-footer div {
+    margin-left: 20px;
+}
+
+.info-footer div p {
+    text-align: center;
+}
+
+.user-posts-container {
+    width: 65%;
+    float: right;
+}
+
+.note-card {
+    width: 95%;
+    background-color: white;
+}
