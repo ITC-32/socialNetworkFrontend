@@ -1,0 +1,94 @@
+@media (max-width: 1150px) {
+    .header {
+        padding: 11px 100px;
+    }
+    .chat-container {
+        width: 70%;
+    }
+    .menu {
+        width: 20%;
+    }
+}
+
+@media (max-width: 850px) {
+    main {
+        padding: 5px !important;
+    }
+    .header {
+        padding: 11px 50px;
+    }
+    .menu {
+        width: 30%;
+    }
+    .send-form {
+        width: 75%;
+    }
+}
+
+@media (max-width: 700px) {
+    .menu {
+        display: none;
+    }
+    .chat-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 512px) {
+    p {
+        font-size: 16px !important;
+    }
+
+    .logo-header {
+        width: 50px;
+    }
+
+    .site-name {
+        font-size: 25px !important;
+    }
+
+    .call img,
+    .back-icon img {
+        width: 25px;
+    }
+
+    .user-avatar a img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .chat-message-card {
+        padding: 5px 10px;
+    }
+
+    .send-form textarea {
+        width: 85%;
+    }
+
+    .send-btn {
+        width: 15%;
+    }
+
+    .send-file {
+        width: 10%;
+    }
+
+    .header {
+        padding: 11px 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .icon {
+        font-size: 25px !important;
+    }
+
+    .send-btn {
+        text-align: right;
+    }
+
+    .call img,
+    .back-icon img {
+        width: 20px;
+    }
+}
