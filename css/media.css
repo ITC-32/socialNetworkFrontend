@@ -2,7 +2,8 @@
     .header {
         padding: 11px 100px;
     }
-    .chat-container {
+    .chat-container,
+    .community-container {
         width: 70%;
     }
     .menu {
@@ -29,7 +30,8 @@
     .menu {
         display: none;
     }
-    .chat-container {
+    .chat-container,
+    .community-container {
         width: 100%;
     }
 }
@@ -52,7 +54,12 @@
         width: 25px;
     }
 
-    .user-avatar a img {
+    .user-avatar img {
+        width: 40px;
+    }
+
+    .user-avatar a img,
+    .community-logo img {
         height: 50px;
         width: 50px;
     }
@@ -75,6 +82,14 @@
 
     .header {
         padding: 11px 20px;
+    }
+
+    .community-container {
+        padding: 5px;
+    }
+
+    .user-comment-form-container {
+        margin-bottom: 0 !important;
     }
 }
 
