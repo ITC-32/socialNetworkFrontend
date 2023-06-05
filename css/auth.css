@@ -82,7 +82,7 @@
 .header-links {
     display: flex;
     justify-content: space-between;
-    width: 12%;
+    width: 20%;
 }
 
 .header-links a {

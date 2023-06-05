@@ -1,3 +1,17 @@
+@media (max-width: 1500px) {
+    .login-main {
+        padding: 18px 100px;
+    }
+
+    .login-main .form-container form {
+        margin-right: 0;
+    }
+
+    .login-main .container {
+        margin-top: 100px;
+    }
+}
+
 @media (max-width: 1150px) {
     .header {
         padding: 11px 100px;
@@ -11,6 +25,23 @@
     }
     .content-container .friends_block {
         width: 70%;
+    }
+
+    .login-main .container {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .form-container {
+        margin-top: 20px;
+    }
+
+    .header-links {
+        width: 30%;
+    }
+
+    .logo-container .site-name {
+        font-size: 40px;
     }
 }
 
@@ -42,20 +73,43 @@
     .menu {
         display: none;
     }
+
     .chat-container,
     .community-container,
     .content-container .friends_block {
         width: 100%;
     }
+
     .friends-header li {
         margin-left: 10px;
         font-size: small;
+    }
+
+    .login-main .form-container,
+    .login-main .form-container form {
+        width: 90%;
+    }
+
+    .logo-header {
+        height: 50px;
+    }
+
+    .logo-container .site-name {
+        font-size: 30px;
+    }
+
+    .header-links {
+        width: 45%;
     }
 }
 
 @media (max-width: 512px) {
     p {
         font-size: 16px !important;
+    }
+
+    .welcome p {
+        font-size: 40px !important;
     }
 
     .logo-header {
@@ -130,5 +184,13 @@
 
     .user img {
         width: 12%;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .form-container .form {
+        padding: 20px 15px;
     }
 }
