@@ -16,15 +16,16 @@
     .header {
         padding: 11px 100px;
     }
+
     .chat-container,
-    .community-container {
+    .community-container,
+    .content-container .friends_block,
+    .musics-container {
         width: 70%;
     }
+
     .menu {
         width: 20%;
-    }
-    .content-container .friends_block {
-        width: 70%;
     }
 
     .login-main .container {
@@ -91,7 +92,8 @@
     .chat-container,
     .community-container,
     .content-container .friends_block,
-    .messages {
+    .messages,
+    .musics-container {
         width: 100%;
     }
 
@@ -115,6 +117,10 @@
 
     .header-links {
         width: 45%;
+    }
+
+    .play {
+        width: 10%;
     }
 }
 
@@ -209,7 +215,16 @@
         padding: 20px 15px;
     }
 
-    .last-seen {
+    .last-seen,
+    .track-name {
         font-size: 12px !important;
+    }
+
+    .musics-header button {
+        width: 25%;
+    }
+
+    .musics-header input[type="search"] {
+        width: 75%;
     }
 }
