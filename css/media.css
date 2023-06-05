@@ -9,6 +9,9 @@
     .menu {
         width: 20%;
     }
+    .content-container .friends_block {
+        width: 70%;
+    }
 }
 
 @media (max-width: 850px) {
@@ -21,8 +24,17 @@
     .menu {
         width: 30%;
     }
+    .friends-menu {
+        width: 20%;
+    }
     .send-form {
         width: 75%;
+    }
+    .content-container {
+        justify-content: space-between;
+    }
+    .message_data p {
+        font-size: 15px;
     }
 }
 
@@ -31,8 +43,13 @@
         display: none;
     }
     .chat-container,
-    .community-container {
+    .community-container,
+    .content-container .friends_block {
         width: 100%;
+    }
+    .friends-header li {
+        margin-left: 10px;
+        font-size: small;
     }
 }
 
@@ -91,6 +108,10 @@
     .user-comment-form-container {
         margin-bottom: 0 !important;
     }
+
+    .user img {
+        width: 10%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -105,5 +126,9 @@
     .call img,
     .back-icon img {
         width: 20px;
+    }
+
+    .user img {
+        width: 12%;
     }
 }
