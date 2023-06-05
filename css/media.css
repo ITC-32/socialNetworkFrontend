@@ -1,13 +1,16 @@
 @media (max-width: 1500px) {
-    .login-main {
+    .login-main,
+    .signup-main {
         padding: 18px 100px;
     }
 
-    .login-main .form-container form {
+    .login-main .form-container form,
+    .signup-main .form-container form {
         margin-right: 0;
     }
 
-    .login-main .container {
+    .login-main .container,
+    .signup-main .container {
         margin-top: 100px;
     }
 }
@@ -39,7 +42,8 @@
         width: 20%;
     }
 
-    .login-main .container {
+    .login-main .container,
+    .signup-main .container {
         flex-direction: column;
         margin-top: 0;
     }
@@ -115,7 +119,9 @@
     }
 
     .login-main .form-container,
-    .login-main .form-container form {
+    .signup-main .form-container,
+    .login-main .form-container form,
+    .signup-main .form-container form {
         width: 90%;
     }
 
@@ -137,6 +143,16 @@
 }
 
 @media (max-width: 512px) {
+    .signup-main .form .form-section,
+    .extra-fields-container {
+        display: block;
+    }
+
+    .signup-main .form .form-section input,
+    #birth-date {
+        width: 95%;
+    }
+
     .profile-info-container {
         display: block;
     }
@@ -150,8 +166,14 @@
         width: 95%;
     }
 
-    .user-posts-container {
+    .user-posts-container,
+    .extra-fields-container div,
+    .extra-fields-container div input{
         width: 100%;
+    }
+
+    .second-extra-field {
+        margin-bottom: 20px;
     }
 
     p {
