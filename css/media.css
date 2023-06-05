@@ -43,29 +43,43 @@
     .logo-container .site-name {
         font-size: 40px;
     }
+
+    .messages-links {
+        width: 12% !important;
+    }
 }
 
 @media (max-width: 850px) {
     main {
         padding: 5px !important;
     }
+
     .header {
         padding: 11px 50px;
     }
+
     .menu {
         width: 30%;
     }
+
     .friends-menu {
         width: 20%;
     }
+
     .send-form {
         width: 75%;
     }
+
     .content-container {
         justify-content: space-between;
     }
+
     .message_data p {
         font-size: 15px;
+    }
+
+    .messages {
+        width: 70%;
     }
 }
 
@@ -76,7 +90,8 @@
 
     .chat-container,
     .community-container,
-    .content-container .friends_block {
+    .content-container .friends_block,
+    .messages {
         width: 100%;
     }
 
@@ -192,5 +207,9 @@
 
     .form-container .form {
         padding: 20px 15px;
+    }
+
+    .last-seen {
+        font-size: 12px !important;
     }
 }
