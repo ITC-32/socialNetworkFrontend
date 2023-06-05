@@ -149,7 +149,8 @@
     }
 
     .signup-main .form .form-section input,
-    #birth-date {
+    #birth-date,
+    .profile-info-container .profile-info {
         width: 95%;
     }
 
@@ -160,10 +161,6 @@
     .profile-info-container .avatar {
         width: 75%;
         margin: auto auto 20px;
-    }
-
-    .profile-info-container .profile-info {
-        width: 95%;
     }
 
     .user-posts-container,
@@ -219,7 +216,8 @@
         width: 15%;
     }
 
-    .send-file {
+    .send-file,
+    .user img {
         width: 10%;
     }
 
@@ -235,8 +233,8 @@
         margin-bottom: 0 !important;
     }
 
-    .user img {
-        width: 10%;
+    .search-header button {
+        padding: 0;
     }
 }
 
@@ -271,11 +269,14 @@
         font-size: 12px !important;
     }
 
-    .musics-header button {
+    .musics-header button,
+    .search-header button {
         width: 25%;
+        padding: 0;
     }
 
-    .musics-header input[type="search"] {
+    .musics-header input[type="search"],
+    .search-header input[type="search"] {
         width: 75%;
     }
 }
