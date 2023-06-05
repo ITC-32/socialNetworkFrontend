@@ -16,12 +16,9 @@
     box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
 }
 
-.profile-info-container div img {
-    width: 100%;
-}
-
 .profile-info-container .avatar {
     width: 30%;
+    height: 100%;
 }
 
 .profile-info-container .profile-info {
@@ -83,6 +80,5 @@
 }
 
 .note-card {
-    width: 95%;
     background-color: white;
 }
