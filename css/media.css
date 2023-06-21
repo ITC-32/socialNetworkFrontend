@@ -100,7 +100,12 @@
 }
 
 @media (max-width: 700px) {
-    .menu {
+    .burger {
+        display: block;
+    }
+
+    .menu,
+    .header-links {
         display: none;
     }
 
